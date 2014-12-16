@@ -1,0 +1,14 @@
+{
+  "name": "ionicons",
+  "type": "app",
+  "main": ["css/ionicons.css"],
+  "export": {
+    "fonts": [
+      "fonts/ionicons.eot",
+      "fonts/ionicons.svg",
+      "fonts/ionicons.ttf",
+      "fonts/ionicons.woff"
+    ]
+  },
+  "version": "1.5.2"
+}

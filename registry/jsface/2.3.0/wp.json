@@ -1,0 +1,15 @@
+{
+  "name": "jsface",
+  "main": ["jsface.js"],
+  "export": {
+    "jsface": "jsface.js",
+    "ready": "jsface.ready.js",
+    "pointcut": "jsface.pointcut.js"
+  },
+  "version": "2.1.1",
+  "homepage": "https://github.com/tnhu/jsface",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/tnhu/jsface/blob/master/LICENSE.txt"
+  }]
+}

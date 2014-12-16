@@ -1,0 +1,35 @@
+{
+  "name": "wpm-cli",
+  "version": "0.0.4",
+  "description": "Web Package Manager",
+  "main": "wpm-cli.js",
+  "bin": {
+    "wpm": "wpm-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnhu/wpm"
+  },
+  "keywords": [
+    "wpm",
+    "wpm-cli",
+    "Web Package Manager"
+  ],
+  "author": "Tan Nhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnhu/wpm/issues"
+  },
+  "homepage": "https://github.com/tnhu/wpm",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "commander": "^2.5.0",
+    "fs-extra": "^0.13.0",
+    "shelljs": "^0.3.0"
+  }
+}

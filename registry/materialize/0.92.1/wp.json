@@ -1,0 +1,14 @@
+{
+  "name": "materialize",
+  "main": ["css/materialize"],
+  "version": "0.92.1",
+  "homepage": "http://materializecss.com/",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/Dogfalo/materialize/blob/master/LICENSE"
+  }, {
+  	"type": "CC BY 4.0",
+  	"for": "Material Design Icons",
+  	"url": "https://github.com/Dogfalo/materialize/blob/master/font/material-design-icons/LICENSE.txt"
+  }]
+}
