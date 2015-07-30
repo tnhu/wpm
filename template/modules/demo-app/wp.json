@@ -1,0 +1,7 @@
+{
+  "name"         : "${application}",
+  "type"         : "app",
+  "main"         : [ "${application}.css", "${application}.js" ],
+  "version"      : "${version}",
+  "dependencies" : {}
+}

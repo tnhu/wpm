@@ -1,5 +1,6 @@
 {
   "name": "jquery",
+  "description": "JavaScript library for DOM operations",
   "main": ["jquery.js"],
   "export": {
   	"jquery": "jquery.js"

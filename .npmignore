@@ -1,7 +1,9 @@
+.gitignore
 .node_modules
-src
-samples
-test
 registry
+src
+test
 BUGS.md
 TODO.md
+test.js
+npm-debug.log

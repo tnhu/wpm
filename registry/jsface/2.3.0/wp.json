@@ -1,6 +1,7 @@
 {
   "name": "jsface",
   "main": ["jsface.js"],
+  "description": "Small, fast, elegant, powerful, and cross platform JavaScript OOP library. Support main, singleton, super call, private, mixins, plugins, AOP and more.",
   "export": {
     "jsface": "jsface.js",
     "ready": "jsface.ready.js",

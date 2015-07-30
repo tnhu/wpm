@@ -1,0 +1,7 @@
+{
+  "build": "./build",
+  "modules": "./modules",
+  "apps": [
+    "${application}"
+  ]
+}

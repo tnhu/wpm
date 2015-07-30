@@ -58,7 +58,7 @@
       }
     };
 
-    // TODO: may allow to set HTTP headers?
+    // TODO: allow to set HTTP headers to support CORS?
     request.send(params);
 
     return request;
@@ -98,6 +98,8 @@
 
       packageStates            = {},
       depdendencyGraph         = {},
+
+      finished                 = false, // when is true, wpm has done its task
 
       head;
 
@@ -147,6 +149,7 @@
     // application ready, lets show the document
     bodyStyle.display = "block";
     // TODO clean up variables
+    finished = true;
   }
 
   /**
@@ -360,17 +363,23 @@
   }
 
   function use() {
-
   }
 
   // --- Initialization ---
 
   bodyStyle.display = "none";                                       // hide document, show it only when the application ready
-  head = document.head || document.getElementsByTagName('head')[0]; // cache head element
+  head = document.head || document.getElementsByTagName("head")[0]; // cache head element
 
   // Resolve application package
   resolvePackageFromUrl(applicationJsonUrl);
 
   // export use to global
   global.use = use;
+
+  // force to unblock body if wpm is still resolving after 5s
+  setTimeout(function() {
+    if ( !finished) {
+      bodyStyle.display = "block";
+    }
+  }, 5000);
 })(this);

@@ -1,5 +1,6 @@
 {
   "name": "materialize",
+  "description": "A modern responsive front-end framework based on Material Design",
   "main": ["css/materialize"],
   "version": "0.92.1",
   "homepage": "http://materializecss.com/",

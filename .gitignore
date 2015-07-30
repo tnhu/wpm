@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
-build
+registry
+src
 test
 BUGS.md
 TODO.md
+README.md
