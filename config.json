@@ -1,5 +1,0 @@
-{
-	"registry" : "https://github.com/tnhu/wpm.git",
-	"build": "build",
-	"modules": "modules"
-}

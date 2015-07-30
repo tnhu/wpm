@@ -1,8 +1,2 @@
-.DS_Store
-node_modules
-registry
-src
-test
-BUGS.md
-TODO.md
-README.md
+/bower_components/
+/node_modules/

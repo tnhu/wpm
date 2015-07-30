@@ -1,35 +1,43 @@
 {
   "name": "wpm-cli",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Web Package Manager",
-  "main": "wpm-cli.js",
+  "main": "bin/wpm-cli.js",
   "bin": {
-    "wpm": "wpm-cli.js"
+    "wpm": "bin/wpm-cli.js"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-qunit": "^1.2.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-wrap": "^0.11.0",
+    "phantomjs": "^1.9.17",
+    "run-sequence": "^1.1.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tnhu/wpm"
+    "url": "git+https://github.com/tnhu/wpm.git"
   },
   "keywords": [
-    "wpm",
-    "wpm-cli",
-    "Web Package Manager"
+    "Web",
+    "Package",
+    "Manager",
+    "Web",
+    "Component"
   ],
   "author": "Tan Nhu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tnhu/wpm/issues"
   },
-  "homepage": "https://github.com/tnhu/wpm",
-  "engines": {
-    "node": ">= 0.4.0"
-  },
+  "homepage": "https://github.com/tnhu/wpm#readme",
   "dependencies": {
-    "chalk": "^0.5.1",
-    "commander": "^2.5.0",
-    "connect": "^3.3.3",
-    "fs-extra": "^0.13.0",
-    "jsface": "^2.3.0",
-    "shelljs": "^0.3.0"
+    "html-renderer": "*",
+    "html2hscript": "^1.0.4",
+    "virtual-dom": "^2.0.1",
+    "virtual-html": "^1.3.0"
   }
 }

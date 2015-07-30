@@ -1,0 +1,4 @@
+{
+  "esnext": true,
+  "predef": [ "Class", "wpm", "console", "$", "document", "window", "Promise", "setTimeout", "module", "unescape", "clearTimeout", "setInterval" ]
+}

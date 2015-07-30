@@ -1,9 +1,0 @@
-.gitignore
-.node_modules
-registry
-src
-test
-BUGS.md
-TODO.md
-test.js
-npm-debug.log

@@ -1,115 +1,20 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/Users/tnhu/.nvm/v0.10.33/bin/node',
-1 verbose cli   '/Users/tnhu/.nvm/v0.10.33/bin/npm',
-1 verbose cli   'publish',
-1 verbose cli   '--force' ]
-2 info using npm@1.4.28
-3 info using node@v0.10.33
-4 warn using --force I sure hope you know what you are doing.
-5 verbose publish [ '.' ]
-6 verbose cache add [ '.', null ]
-7 verbose cache add name=undefined spec="." args=[".",null]
-8 verbose parsed url { protocol: null,
-8 verbose parsed url   slashes: null,
-8 verbose parsed url   auth: null,
-8 verbose parsed url   host: null,
-8 verbose parsed url   port: null,
-8 verbose parsed url   hostname: null,
-8 verbose parsed url   hash: null,
-8 verbose parsed url   search: null,
-8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: '.',
-8 verbose parsed url   path: '.',
-8 verbose parsed url   href: '.' }
-9 silly lockFile 3a52ce78- .
-10 verbose lock . /Users/tnhu/.npm/3a52ce78-.lock
-11 verbose tar pack [ '/Users/tnhu/.npm/wpm-cli/0.0.5/package.tgz', '.' ]
-12 verbose tarball /Users/tnhu/.npm/wpm-cli/0.0.5/package.tgz
-13 verbose folder .
-14 info prepublish wpm-cli@0.0.5
-15 silly lockFile 1f1177db-tar tar://.
-16 verbose lock tar://. /Users/tnhu/.npm/1f1177db-tar.lock
-17 silly lockFile 4d5b742a-hu-npm-wpm-cli-0-0-5-package-tgz tar:///Users/tnhu/.npm/wpm-cli/0.0.5/package.tgz
-18 verbose lock tar:///Users/tnhu/.npm/wpm-cli/0.0.5/package.tgz /Users/tnhu/.npm/4d5b742a-hu-npm-wpm-cli-0-0-5-package-tgz.lock
-19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 1f1177db-tar tar://.
-21 silly lockFile 4d5b742a-hu-npm-wpm-cli-0-0-5-package-tgz tar:///Users/tnhu/.npm/wpm-cli/0.0.5/package.tgz
-22 silly lockFile 4d5b742a-hu-npm-wpm-cli-0-0-5-package-tgz tar:///Users/tnhu/.npm/wpm-cli/0.0.5/package.tgz
-23 silly lockFile cad630d0-s-tnhu-npm-wpm-cli-0-0-5-package /Users/tnhu/.npm/wpm-cli/0.0.5/package
-24 verbose lock /Users/tnhu/.npm/wpm-cli/0.0.5/package /Users/tnhu/.npm/cad630d0-s-tnhu-npm-wpm-cli-0-0-5-package.lock
-25 silly lockFile cad630d0-s-tnhu-npm-wpm-cli-0-0-5-package /Users/tnhu/.npm/wpm-cli/0.0.5/package
-26 silly lockFile cad630d0-s-tnhu-npm-wpm-cli-0-0-5-package /Users/tnhu/.npm/wpm-cli/0.0.5/package
-27 silly lockFile 3a52ce78- .
-28 silly lockFile 3a52ce78- .
-29 silly publish { name: 'wpm-cli',
-29 silly publish   version: '0.0.5',
-29 silly publish   description: 'Web Package Manager',
-29 silly publish   main: 'wpm-cli.js',
-29 silly publish   bin: { wpm: 'wpm-cli.js' },
-29 silly publish   repository: { type: 'git', url: 'https://github.com/tnhu/wpm' },
-29 silly publish   keywords: [ 'wpm', 'wpm-cli', 'Web Package Manager' ],
-29 silly publish   author: { name: 'Tan Nhu' },
-29 silly publish   license: 'MIT',
-29 silly publish   bugs: { url: 'https://github.com/tnhu/wpm/issues' },
-29 silly publish   homepage: 'https://github.com/tnhu/wpm',
-29 silly publish   engines: { node: '>= 0.4.0' },
-29 silly publish   dependencies:
-29 silly publish    { chalk: '^0.5.1',
-29 silly publish      commander: '^2.5.0',
-29 silly publish      connect: '^3.3.3',
-29 silly publish      'fs-extra': '^0.13.0',
-29 silly publish      jsface: '^2.3.0',
-29 silly publish      shelljs: '^0.3.0' },
-29 silly publish   readme: '# Web Package Manager\n\nTO BE WRITTEN...',
-29 silly publish   readmeFilename: 'README.md',
-29 silly publish   gitHead: '40b1418e993f09e9d66ba7f8e3f3ab37fa09a754',
-29 silly publish   _id: 'wpm-cli@0.0.5',
-29 silly publish   scripts: {},
-29 silly publish   _shasum: '6253c8ef4c167b7e0fa88dcaba8f781ac4212f4e',
-29 silly publish   _from: '.' }
-30 verbose request where is /wpm-cli
-31 verbose request registry https://registry.npmjs.org/
-32 verbose request id 176e44ea19eb27f9
-33 verbose url raw /wpm-cli
-34 verbose url resolving [ 'https://registry.npmjs.org/', './wpm-cli' ]
-35 verbose url resolved https://registry.npmjs.org/wpm-cli
-36 verbose request where is https://registry.npmjs.org/wpm-cli
-37 info trying registry request attempt 1 at 15:55:06
-38 http PUT https://registry.npmjs.org/wpm-cli
-39 http 403 https://registry.npmjs.org/wpm-cli
-40 verbose headers { date: 'Tue, 16 Dec 2014 23:55:08 GMT',
-40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-40 verbose headers   'content-type': 'application/json',
-40 verbose headers   'cache-control': 'max-age=60',
-40 verbose headers   'content-length': '2421',
-40 verbose headers   'accept-ranges': 'bytes',
-40 verbose headers   via: '1.1 varnish',
-40 verbose headers   'x-served-by': 'cache-lax1434-LAX',
-40 verbose headers   'x-cache': 'MISS',
-40 verbose headers   'x-cache-hits': '0',
-40 verbose headers   'x-timer': 'S1418774108.694307,VS0,VE148',
-40 verbose headers   'keep-alive': 'timeout=10, max=50',
-40 verbose headers   connection: 'Keep-Alive' }
-41 error publish Failed PUT 403
-42 error Error: forbidden cannot modify pre-existing version: 0.0.5
-42 error old={"name":"wpm-cli","version":"0.0.5","description":"Web Package Manager","main":"wpm-cli.js","bin":{"wpm":"wpm-cli.js"},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/tnhu/wpm"},"keywords":["wpm","wpm-cli","Web Package Manager"],"author":{"name":"Tan Nhu"},"license":"MIT","bugs":{"url":"https://github.com/tnhu/wpm/issues"},"homepage":"https://github.com/tnhu/wpm","engines":{"node":">= 0.4.0"},"dependencies":{"chalk":"^0.5.1","commander":"^2.5.0","connect":"^3.3.3","fs-extra":"^0.13.0","jsface":"^2.3.0","shelljs":"^0.3.0"},"gitHead":"40b1418e993f09e9d66ba7f8e3f3ab37fa09a754","_id":"wpm-cli@0.0.5","_shasum":"8aa5fb18ba30f8e80d39a402c006e718e2fe7872","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"tannhu","email":"tnhu@me.com"},"maintainers":[{"name":"tannhu","email":"tnhu@me.com"}],"dist":{"shasum":"8aa5fb18ba30f8e80d39a402c006e718e2fe7872","tarball":"http://registry.npmjs.org/wpm-cli/-/wpm-cli-0.0.5.tgz"}}
-42 error new={"name":"wpm-cli","version":"0.0.5","description":"Web Package Manager","main":"wpm-cli.js","bin":{"wpm":"wpm-cli.js"},"repository":{"type":"git","url":"https://github.com/tnhu/wpm"},"keywords":["wpm","wpm-cli","Web Package Manager"],"author":{"name":"Tan Nhu"},"license":"MIT","bugs":{"url":"https://github.com/tnhu/wpm/issues"},"homepage":"https://github.com/tnhu/wpm","engines":{"node":">= 0.4.0"},"dependencies":{"chalk":"^0.5.1","commander":"^2.5.0","connect":"^3.3.3","fs-extra":"^0.13.0","jsface":"^2.3.0","shelljs":"^0.3.0"},"readme":"# Web Package Manager\u000a\u000aTO BE WRITTEN...","readmeFilename":"README.md","gitHead":"40b1418e993f09e9d66ba7f8e3f3ab37fa09a754","_id":"wpm-cli@0.0.5","scripts":{},"_shasum":"6253c8ef4c167b7e0fa88dcaba8f781ac4212f4e","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"tannhu","email":"tnhu@me.com"},"maintainers":[{"name":"tannhu","email":"tnhu@me.com"}],"dist":{"shasum":"6253c8ef4c167b7e0fa88dcaba8f781ac4212f4e","tarball":"http://registry.npmjs.org/wpm-cli/-/wpm-cli-0.0.5.tgz"}}: wpm-cli
-42 error     at RegClient.<anonymous> (/Users/tnhu/.nvm/v0.10.33/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
-42 error     at Request._callback (/Users/tnhu/.nvm/v0.10.33/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
-42 error     at Request.self.callback (/Users/tnhu/.nvm/v0.10.33/lib/node_modules/npm/node_modules/request/request.js:236:22)
-42 error     at Request.emit (events.js:98:17)
-42 error     at Request.<anonymous> (/Users/tnhu/.nvm/v0.10.33/lib/node_modules/npm/node_modules/request/request.js:1142:14)
-42 error     at Request.emit (events.js:117:20)
-42 error     at IncomingMessage.<anonymous> (/Users/tnhu/.nvm/v0.10.33/lib/node_modules/npm/node_modules/request/request.js:1096:12)
-42 error     at IncomingMessage.emit (events.js:117:20)
-42 error     at _stream_readable.js:943:16
-42 error     at process._tickCallback (node.js:419:13)
-43 error If you need help, you may report this *entire* log,
-43 error including the npm and node versions, at:
-43 error     <http://github.com/npm/npm/issues>
-44 error System Darwin 13.4.0
-45 error command "/Users/tnhu/.nvm/v0.10.33/bin/node" "/Users/tnhu/.nvm/v0.10.33/bin/npm" "publish" "--force"
-46 error cwd /Users/tnhu/Dropbox/workspace/tnhu-github/wpm
-47 error node -v v0.10.33
-48 error npm -v 1.4.28
-49 verbose exit [ 1, true ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.2
+4 verbose node symlink /usr/local/bin/node
+5 verbose stack Error: missing script: start
+5 verbose stack     at run (/usr/local/lib/node_modules/npm/lib/run-script.js:142:19)
+5 verbose stack     at /usr/local/lib/node_modules/npm/lib/run-script.js:58:5
+5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+5 verbose stack     at handleExists (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:318:20)
+5 verbose stack     at FSReqWrap.cb [as oncomplete] (evalmachine.<anonymous>:226:19)
+6 verbose cwd /Users/tnhu/Dropbox/workspace/R7D/wpm
+7 error Darwin 14.4.0
+8 error argv "node" "/usr/local/bin/npm" "start"
+9 error node v0.12.2
+10 error npm  v2.9.1
+11 error missing script: start
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

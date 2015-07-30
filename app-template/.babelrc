@@ -1,0 +1,4 @@
+{
+  "plugins": ["babel-plugin-wpm"],
+  "blacklist": ["strict"]
+}
