@@ -13,6 +13,12 @@ wpm is a declarative web application framework built on top of ES6, JSFace, and 
 gulp
 ```
 
+## Build for deployment
+
+```sh
+gulp prod
+```
+
 ### Watch and build
 
 ```sh
