@@ -6,3 +6,15 @@ wpm is a declarative web application framework built on top of ES6, JSFace, and 
 
 * Clone this repository
 * App template is under app-template/
+
+## Build
+
+```sh
+gulp
+```
+
+### Watch and build
+
+```sh
+gulp watch
+```
